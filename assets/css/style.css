@@ -1,0 +1,3610 @@
+@import "/web/20220307123651cs_/https://avanahealthcare.com/wp-content/themes/mohitdesign/css/<?php bloginfo('template_url');?>/css/styles.scss";
+
+
+@import url(http://web.archive.org/web/20220307123651cs_/https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800);
+
+:hover,
+a {
+    text-decoration: none !important
+}
+
+#cssload-wrapper,
+.myNav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0
+}
+
+.darkHeader {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+}
+
+.top-header-bg {
+    background: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fixed-header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+}
+
+.whit-w {
+    width: 1000px;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.slick-loading .slick-slide,
+.slick-loading .slick-track {
+    visibility: hidden
+}
+
+.mt-cantt .latter-sp,
+.tittle h1,
+h1 {
+    text-transform: uppercase
+}
+
+.form-pt {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Poppins-Light.eot);
+    src: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Poppins-Light.eot#iefix) format('embedded-opentype'), url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Poppins-Light.woff) format('woff'), url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Poppins-Light.ttf) format('truetype'), url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Poppins-Light.svg#Sri-TSCRegular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Antipasto;
+    src: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Antipasto.eot);
+    src: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Antipasto.eot#iefix) format('embedded-opentype'), url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Antipasto.woff) format('woff'), url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Antipasto.ttf) format('truetype'), url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/fonts/Antipasto.svg#Sri-TSCRegular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+a {
+    color: #bb9945
+}
+
+a:focus {
+    outline: 0
+}
+
+:hover {
+    transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out
+}
+
+.accordion-toggle:hover,
+.flat-portfolio .item .title-portfolio a,
+.meet-cantt-tittle .visit-us a,
+.mt-0 a,
+.panel .panel-heading .panel-title a:focus,
+.panel .panel-heading .panel-title a:hover,
+.read-story-button a:hover,
+.tittle p a {
+    text-decoration: none
+}
+
+img {
+    max-width: 100%
+}
+
+body {
+    color: #000;
+    font-family: Poppins, sans-serif;
+    position: relative;
+}
+
+.for-step {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.fTab.current {
+    bottom: 20%;
+}
+
+.form-bottom {
+    display: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.fTab {
+    top: -68px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.form-dt {
+    border: #ddd solid 1px;
+    padding: 20px;
+    color: #fff;
+    background: #7d4207;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li a {
+    text-transform: uppercase;
+    background: #f5f5f5;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    float: left;
+    margin-right: 15px;
+}
+
+ul.tabs li a.current {
+    color: #8e6b06 !important;
+    border-bottom: #c59a0e solid 2px;
+}
+
+.bd-cantt li {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 100;
+}
+
+.text-pt {
+    padding-top: 15px;
+}
+
+.text-pt h4 {
+    color: #785722;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.text-pt p {
+    line-height: 22px;
+}
+
+.tab-content2 {
+    display: none;
+}
+
+.tab-content2.current {
+    display: inherit;
+}
+
+.pgp_effect {
+    overflow: hidden;
+    padding: 10px !important;
+    margin-top: 10px;
+}
+
+.portfolio-gallery-title {
+    display: none !important;
+}
+
+.myNav {
+    height: 80px;
+    padding-top: 7px;
+    background: #000;
+    display: none;
+    z-index: 9999
+}
+
+.myNav.darkHeader {
+    display: inherit
+}
+
+.myNav .logo-small {
+    float: left;
+    height: 50px
+}
+
+.select-lang {
+    padding: 0px 19px;
+    margin: 3px 0px 3px 12px !important;
+    font-size: 13px !important;
+    width: 106px;
+}
+
+.dental-cont p {
+    font-size: 16px !important;
+    text-align: justify !important;
+}
+
+.myNav .contctBtn {
+    float: right;
+    font-weight: 300;
+    border: 1px solid #ebc84e;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-top: 15px
+}
+
+.tittle h1,
+p {
+    font-weight: 100
+}
+
+.name-cantt a {
+    color: #fff;
+}
+
+.name-cantt a:hover {
+    color: #EBC84E !important;
+}
+
+.contact-head h1,
+.contact-head p,
+.fw-special-title span {
+    color: #fff !important;
+}
+
+.line-bodder {
+    height: 1px;
+    border: #000 solid 1px;
+}
+
+.nd-add p {
+    color: #c7c7c7;
+    font-size: 14px;
+}
+
+.nd-add h3 {
+    margin: 0 0 18px;
+    padding: 0;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.nd-add p span {
+    margin-right: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.myNav .contctBtn:focus,
+.myNav .contctBtn:hover {
+    border: 1px solid #ebc84e;
+    background: #ebc84e;
+    color: #fff;
+    text-decoration: none
+}
+
+.first_div,
+.second_div {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%
+}
+
+#carousel-home,
+#header {
+    position: relative
+}
+
+p {
+
+    font-size: 13px;
+    font-family: Poppins-Light
+}
+
+p .p1 {
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.pt70 {
+    padding-top: 60px
+}
+
+.pb70 {
+    padding-bottom: 60px;
+}
+
+.pt40 {
+    padding-top: 15px
+}
+
+.pt100 {
+    padding-top: 100px
+}
+
+.mt70 {
+    margin-top: 70px
+}
+
+.mt90 {
+    margin-top: 90px
+}
+
+.mt100 {
+    margin-top: 100px
+}
+
+h1 {
+    font-size: 50px
+}
+
+.nav-mar {
+    padding-right: 35px
+}
+
+.logo {
+    padding-left: 32px
+}
+
+/*loader*/
+#cssload-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 15;
+    overflow: hidden;
+    background: #fff;
+    z-index: 999999;
+}
+
+.img_div {
+    width: 74px;
+    height: 74px;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Awana-Logo-Small-Size.gif) no-repeat center / 95% auto;
+    display: inline-block;
+    /*border-radius:50%;*/
+    color: #fff;
+    text-align: center;
+    line-height: 74px;
+    font-size: 0;
+    text-indent: -9999
+}
+
+/*.first_circle { width: 94px;  height: 94px;  border-radius: 50%;  padding: 10px;  position: absolute; left: 50%;  top:50%;  margin-top: -57px;  margin-left: -57px;  border-top: 2px solid #e8c54b;  border-right: 2px solid #e8c54b;  border-bottom: 2px solid #e8c54b;  border-left: 2px solid #e8c54b;  -webkit-animation: anim_wifeo 1.4s infinite linear;  -moz-animation: anim_wifeo 1.4s infinite linear;  -ms-animation: anim_wifeo 1.4s infinite linear;  animation: anim_wifeo 1.4s infinite linear;}*/
+.first_div {
+    background-color: transparent;
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -47px;
+    margin-left: -47px;
+    border-radius: 50%;
+}
+
+.second_div {
+    width: 74px;
+    height: 74px;
+    margin-top: 1px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+#checkbox1 {
+    float: right;
+    position: relative;
+    right: 35px;
+    top: 14px;
+    z-index: 999;
+}
+
+.scroll-logo {
+    width: 20%;
+    float: left;
+}
+
+.topscroll-nav {
+    width: 80%;
+    float: right;
+}
+
+.redmore-mobile {
+    display: none;
+    width: 100%;
+}
+
+.top-header-bg .navbar-collapse ul.navbar-nav {
+    float: right;
+    margin-right: 0
+}
+
+.top-header-bg {
+    background: #000;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px !important;
+    padding-bottom: 0px !important;
+    line-height: 20px;
+    border-right: #7b661d solid 1px;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    line-height: 20px;
+}
+
+.slick-next,
+.slick-prev {
+    position: absolute;
+    top: 55%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    padding: 0;
+    border: none;
+    background: 0 0
+}
+
+.slick-prev {
+    width: 29px;
+    height: 55px
+}
+
+.slick-dots {
+    position: absolute;
+    display: block;
+    /*width:100%;*/
+    padding: 0;
+    list-style: none;
+    left: 45px;
+    top: 41%
+}
+
+.slick-dots li,
+.slick-list,
+.slick-slider,
+.slick-track,
+.tittle h1 {
+    position: relative;
+    list-style: none !important;
+}
+
+.slick-dots li {
+    display: block;
+    list-style: none !important;
+    width: 10px;
+    height: 10px;
+    margin: 8px 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 100%
+}
+
+.slick-dots li button {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border: 0;
+    background: 0 0;
+    opacity: 0;
+}
+
+.tittle-cantt p,
+.tittle-cantt-readmore p {
+    line-height: 26px;
+    font-family: Poppins-Light
+}
+
+.slick-slider {
+    overflow: hidden;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+.slick-list {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.slick-list:focus {
+    outline: 0
+}
+
+.slick-list.dragging {
+    cursor: pointer
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.slick-track:after,
+.slick-track:before {
+    display: table;
+    content: ''
+}
+
+.slick-track:after {
+    clear: both
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+    /*height:766px*/
+}
+
+.slick-slide {
+    float: left;
+    min-height: 1px;
+    display: block;
+    width: 100%;
+    /*height:766px*/
+}
+
+.slick-slide.slick-loading img {
+    display: none
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}
+
+.slick-arrow.slick-hidden {
+    display: none
+}
+
+.slick-dots li.slick-active {
+    background-color: #debd5b
+}
+
+.testimonialsbg {
+    margin-right: 10px;
+    padding: 10px
+}
+
+.testimonialstext {
+    float: left;
+    width: 440px;
+    text-align: left
+}
+
+.shadow {
+    border: 1px solid #ddd;
+    float: left;
+    background-color: #fff;
+    min-height: 155px;
+    padding: 20px 10px;
+    -webkit-box-shadow: -1px 11px 8px -8px rgba(0, 0, 0, .75);
+    -moz-box-shadow: -1px 11px 8px -8px rgba(0, 0, 0, .75);
+    box-shadow: -1px 11px 8px -8px rgba(0, 0, 0, .75)
+}
+
+.quotes {
+    display: inline !important;
+    width: 15px;
+    vertical-align: top
+}
+
+.fullwidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial
+}
+
+.slider {
+    margin: 0;
+    background: #030408
+}
+
+.slider .slide {
+    width: 100%;
+    height: 100%
+}
+
+.slick-prev {
+    left: 36px;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/prev.png);
+    z-index: 9999
+}
+
+.slick-next {
+    right: -50px;
+    left: 36px
+}
+
+.slick-dots {
+    bottom: 50px;
+    margin-left: 0
+}
+
+.member .slick-slide img {
+    width: auto
+}
+
+.member .slick-slide {
+    margin: 0 10px;
+    height: auto
+}
+
+.nicescroll-cursors {
+    background-color: #e3c859 !important
+}
+
+.about-bg,
+.tittle,
+.tittle:before {
+    background: #010509
+}
+
+.about-bg {
+    min-height: 192px
+}
+
+#collapse1 {
+    width: 73%;
+    float: right;
+    padding-bottom: 27px
+}
+
+.tittle {
+    padding-left: 10%;
+    width: 36%;
+    float: left;
+    min-height: 150px
+}
+
+.tittle h1,
+.tittle p a {
+    padding-left: 35px;
+    color: #fff
+}
+
+.tittle h1 {
+    font-family: Poppins-Light;
+    font-size: 35px;
+    z-index: 999;
+    top: -36px
+}
+
+.tittle p a {
+    margin-top: 2px;
+    display: inline-block;
+    font-size: 16px
+}
+
+.tittle-cantt {
+    padding-top: 45px;
+    color: #fff;
+    padding-bottom: 35px
+}
+
+.tittle p a .fa {
+    padding-left: 10px
+}
+
+.tittle-cantt-readmore p {
+    color: #fff
+}
+
+.tittle:before {
+    content: '';
+    position: absolute;
+    width: 320px;
+    height: 60px;
+    top: -57px;
+    z-index: 2
+}
+
+.tittle-cantt ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.bt-video-slider,
+.video-amana {
+    padding-bottom: 48.25% !important
+}
+
+.tittle-cantt ul li {
+    float: left;
+    margin-right: 12px;
+    font-family: Poppins-Light;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/before-img.png) no-repeat;
+    padding-left: 30px
+}
+
+.tittle-cantt ul li span {
+    margin-right: 10px;
+    font-weight: 100
+}
+
+.video-amana {
+    position: relative !important;
+    top: 0
+}
+
+.bs-t,
+.lt-bg {
+    position: relative
+}
+
+.middel-bg {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/middle-bg.jpg) no-repeat #fff;
+    min-height: 712px;
+    background-size: 100% 100%;
+    padding-bottom: 60px
+}
+
+.whitebgm {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/only-white.jpg) no-repeat #fff;
+    min-height: 712px;
+    background-size: 100% 100%;
+    padding-bottom: 60px
+}
+
+.whitebgm-no-pad {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/only-white.jpg) no-repeat #fff;
+    background-size: 100% 100%;
+
+}
+
+.whitebgmgold {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/golden-strip.jpg) no-repeat #fff;
+    min-height: 712px;
+    background-size: 100% 100%;
+    padding-bottom: 60px
+}
+
+
+
+
+.mt-cantt h1 {
+    font-size: 50px;
+    color: #2a2a2a;
+    font-weight: 700
+}
+
+.mt-0 a,
+.mt-cantt .latter-sp {
+    font-weight: 300;
+    font-family: Poppins-Light
+}
+
+.mt-cantt .latter-sp {
+    letter-spacing: 5px;
+    font-size: 16px
+}
+
+.line {
+    background: #2a2a2a;
+    width: 40px;
+    height: 2px;
+    margin-top: 18px;
+    margin-bottom: 30px
+}
+
+.dent-md {
+    width: 100%
+}
+
+.dent,
+.tant,
+.tant2,
+.tant2:hover,
+.tant3,
+.tant3:hover,
+.tant4,
+.tant4:hover,
+.tant:hover {
+    height: 91px;
+    width: 84px;
+    display: block;
+    float: left
+}
+
+.img-cantt p {
+    font-family: Poppins-Light;
+    font-size: 12px;
+    line-height: 19px
+}
+
+.mt-0 a {
+    font-size: 20px;
+    color: #434343
+}
+
+.mt-0 a:hover {
+    color: #785722
+}
+
+.pl {
+    padding-left: 20px
+}
+
+.dent-wt-color,
+.dent-wt-color h5 a {
+    color: #fff
+}
+
+.tant {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Dentistry_v2.png)no-repeat !important
+}
+
+.tant:hover {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Dentistry.png)no-repeat !important
+}
+
+.tant2 {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Cosmetology_v2.png)no-repeat !important;
+
+}
+
+.tant2:hover {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Cosmetology.png)no-repeat !important
+}
+
+.tant3 {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Hair-Care.png)no-repeat !important
+}
+
+.tant3:hover {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Hair-Care_v2.png)no-repeat !important
+}
+
+/*.tant4 {
+	background:url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Dental-Tourism.png)!important
+}
+.tant4:hover {
+	background:url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Dental-Tourism_v2.png)!important
+}*/
+.tant4 {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/cosmetic-surgery.png)no-repeat !important
+}
+
+.tant4:hover {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/cosmetic-surgery22.png)no-repeat !important
+}
+
+.dentistry-hover:hover {
+    color: #fff !important
+}
+
+.dentistry-hover h5 a:hover {
+    color: #fff
+}
+
+.media:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    z-index: 1;
+    color: #785722;
+    font-weight: 600
+}
+
+.meetout-bg {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/middle-bg2.jpg) no-repeat #191919;
+    background-size: 100% 100%;
+    padding-bottom: 80px
+}
+
+.bs-t,
+.bs-t:hover,
+.bs.active,
+bs-t:focus {
+    background: 0 0
+}
+
+.meet-cantt-tittle h1 {
+    color: #e4c668;
+    font-size: 50px;
+    font-weight: 700
+}
+
+.meet-cantt-tittle .latter-sp2 {
+    font-family: Poppins-Light;
+    color: #e4c668;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px
+}
+
+.meet-cantt-tittle .visit-us a,
+.name-cantt h5 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.meet-cantt-tittle p {
+    color: #fff;
+    line-height: 26px;
+    padding-right: 8%
+}
+
+.meet-cantt-tittle .visit-us a {
+    font-family: Poppins-Light
+}
+
+.name-cantt h5 {
+    margin-top: 20px
+}
+
+.name-cantt p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 22px
+}
+
+.bs-t {
+    border: none;
+    left: -26px;
+    padding: 6px
+}
+
+.btn-success.active,
+.btn-success.focus,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover,
+.open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #eed37d;
+    border-color: #eed37d
+}
+
+.lt-bg {
+    background: #fff;
+    background-size: 100% 100%;
+    min-height: 544px
+}
+
+.lt-cantt {
+    border-left: #785722 solid 4px;
+    padding-left: 15px
+}
+
+.lt-cantt h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #785722
+}
+
+.lt-cantt h1 {
+    font-size: 50px;
+    color: #785722;
+    padding-top: 20px;
+    font-weight: 700
+}
+
+.lt-cantt p {
+    color: #785722;
+    font-size: 14px
+}
+
+.lt-cantt .read-story-button {
+    margin-top: 36px;
+    display: inline-flex
+}
+
+.lt-cantt .read-story-button a {
+    padding: 10px;
+    border: 2px solid #785722;
+    color: #785722;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.read-story-button a:hover {
+    color: #fff
+}
+
+footer {
+    background: #191919;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.copyright p {
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    margin: 0
+}
+
+.hvr-bounce-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #bc780c;
+    color: #fff;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out
+}
+
+#fh5co-hero .flexslider .slides li,
+.textmonial .bgimg {
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+#fh5co-hero .flexslider .slides li {
+    background-size: cover;
+    min-height: 700px;
+    position: relative
+}
+
+#fh5co-hero .flexslider .slider-text>.slider-text-inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 700px
+}
+
+#fh5co-hero .flexslider .slider-text>.slider-text-inner h2 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff
+}
+
+.w3ls_banner_info h2,
+.w3ls_banner_info h3 {
+    /*font-family:Antipasto;*/
+    font-weight: 300;
+    color: rgb(235, 200, 78);
+    text-transform: uppercase;
+    line-height: 42px;
+    padding: 0
+}
+
+.banner {
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 568px
+}
+
+.banner2 {
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px
+}
+
+.banner1 {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 726px
+}
+
+.w3ls_banner_info {
+    margin: 14em 0 0
+}
+
+.w3ls_banner_info h3 {
+    font-size: 29px;
+    margin: 0
+}
+
+.w3ls_banner_info h2 {
+    font-size: 34px;
+    margin: 0 !important
+}
+
+.textmonial .slick {
+    width: 100%;
+    position: relative
+}
+
+.textmonial .slick-slide {
+    height: 544px
+}
+
+.textmonial .bgimg {
+    background-color: #b3c6cd;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%
+}
+
+.textmonial-cantt {
+    position: absolute;
+    top: 25%;
+    left: 113px;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2
+}
+
+.fade-carousel {
+    position: relative;
+    height: 575px
+}
+
+.hero,
+.hero2 {
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase
+}
+
+.fade-carousel .carousel-inner .item {
+    height: 575px
+}
+
+.fade-carousel .carousel-indicators>li {
+    margin: 0 2px;
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+    opacity: .7
+}
+
+.fade-carousel .carousel-indicators>li.active {
+    width: 10px;
+    height: 10px;
+    opacity: 1
+}
+
+.hero {
+    top: 50%;
+    left: 42%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0)
+}
+
+.hero2 {
+    top: 30%;
+    left: 35%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0)
+}
+
+.hero h1,
+.hero h3,
+.hero p {
+    color: #2a2a2a
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0
+}
+
+.hero h3 {
+    font-size: 25px;
+    font-weight: 100
+}
+
+.hero p {
+    font-size: 16px;
+    width: 55%;
+    font-weight: 300;
+    text-transform: none
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s
+}
+
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s
+}
+
+*/ .btn.btn-lg {
+    padding: 10px 40px
+}
+
+.btn.btn-hero,
+.btn.btn-hero:focus,
+.btn.btn-hero:hover {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: 0;
+    margin: 20px auto
+}
+
+.arrow .fa,
+.red-more-b,
+.red-more-b a,
+.vall-all a {
+    color: #2a2a2a
+}
+
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-10,
+.fade-carousel .slides .slide-11,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6,
+.fade-carousel .slides .slide-7,
+.fade-carousel .slides .slide-8,
+.fade-carousel .slides .slide-9 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.fade-carousel .slides .inline-slider {
+    height: 575px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important
+}
+
+.carousel-indicators.dontslider li {
+    display: inherit !important;
+    margin-top: 10px !important
+}
+
+.carousel-indicators.dontslider {
+    left: 32%;
+    top: 30% !important;
+    display: inline;
+    width: 5%
+}
+
+.fade-carousel .slides .slide-1 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/4.jpg)
+}
+
+.fade-carousel .slides .slide-2 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/7.jpg)
+}
+
+.fade-carousel .slides .slide-3 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/3.jpg)
+}
+
+.fade-carousel .slides .slide-4 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/2.jpg)
+}
+
+.fade-carousel .slides .slide-5 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/5.jpg)
+}
+
+.fade-carousel .slides .slide-6 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/6.jpg)
+}
+
+.fade-carousel .slides .slide-7 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/8.jpg)
+}
+
+.fade-carousel .slides .slide-8 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/1.jpg)
+}
+
+.fade-carousel .slides .slide-9 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/9.jpg)
+}
+
+.fade-carousel .slides .slide-10 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/10.jpg)
+}
+
+.fade-carousel .slides .slide-11 {
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/slider-inner/11.jpg)
+}
+
+.red-more-b {
+    border: 2px solid #444343;
+    border-radius: 0;
+    font-weight: 100;
+    margin-top: 25px
+}
+
+.red-more-b a {
+    z-index: 9999
+}
+
+.line-point {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.carousel-indicators {
+    display: block
+}
+
+.vall-all {
+    margin-top: 40px;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 600 !important
+}
+
+.arrow {
+    width: 155px;
+    text-align: center
+}
+
+.vall-all a {
+    font-weight: 500%;
+    font-size: 14px
+}
+
+.three-cat-bg {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/Other-services.jpg) no-repeat #05070b;
+    background-size: 100% auto;
+    padding-bottom: 50px;
+    padding-top: 53px
+}
+
+.tittle-pl {
+    padding-left: 0;
+    width: 27%
+}
+
+.section-gallery-block-parallax {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/bg-geometry.png);
+    background-repeat: repeat;
+    background-size: initial
+}
+
+.gallery-container {
+    padding: 12px;
+    margin: 0
+}
+
+.no-padding-gallery .gallery-container {
+    padding: 5px;
+    margin: 0
+}
+
+.no-bottom-padding {
+    padding-bottom: 0
+}
+
+.gallery-light-box {
+    display: block;
+    overflow: hidden;
+    position: relative
+}
+
+.gallery-light-box .gallery-img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    padding: 4px 5px
+}
+
+.gallery-light-box .gallery-img:before {
+    background: rgba(156, 190, 56, .5);
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+.gallery-light-box .gallery-img:after {
+    font-family: FontAwesome;
+    content: '\f1c5';
+    position: absolute;
+    left: 150%;
+    margin-left: -21px;
+    top: -64px;
+    background: #FFF;
+    color: #77C720;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+.gallery-light-box .gallery-img img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    opacity: 1;
+    -webkit-transition: all .7s ease-out;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out;
+    transition: all .7s ease-out
+}
+
+.gallery-light-box:hover .gallery-img:before {
+    background: rgba(156, 190, 56, .8);
+    width: 100%;
+    height: 1500px
+}
+
+.gallery-light-box:hover .gallery-img:after {
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    margin-top: -42px
+}
+
+.gallery-light-box:hover .gallery-img img {
+    opacity: .4
+}
+
+.gallery-light-box:hover .gallery-img figcaption {
+    bottom: 0;
+    left: 0
+}
+
+*/ .no-padding-gallery .gallery-container {
+    padding: 0;
+    margin: 0
+}
+
+.flat-portfolio .portfolio-wrap {
+    -webkit-transition: height .8s ease;
+    -moz-transition: height .8s ease;
+    -ms-transition: height .8s ease;
+    -o-transition: height .8s ease;
+    transition: height .8s ease
+}
+
+.flat-portfolio .item {
+    position: relative;
+    float: left;
+    overflow: hidden
+}
+
+.flat-portfolio.v1 .item {
+    width: 100%
+}
+
+.flat-portfolio.v2 .item {
+    width: 100%;
+    padding: 0 10px 10px 0
+}
+
+.flat-portfolio.v2 .portfolio-wrap {
+    margin-right: -10px;
+    margin-bottom: -10px
+}
+
+.flat-portfolio.v2 .item .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.flat-portfolio.v2 .item .item-caption {
+    position: absolute;
+    bottom: -30px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100%;
+    right: 10px;
+    text-align: left;
+    z-index: 9999;
+    background-color: #4db7ea;
+    color: #fff;
+    padding: 10px 0 7px 30px
+}
+
+.flat-portfolio .item .item-caption,
+.flat-portfolio .item .link {
+    text-align: center;
+    z-index: 9999;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    transition: all ease .4s
+}
+
+.flat-portfolio.v2 .item .link {
+    display: none
+}
+
+.flat-portfolio.v2 .item .title-portfolio {
+    margin-bottom: -4px
+}
+
+.flat-portfolio.v2 .item .title-portfolio a {
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    line-height: 14px
+}
+
+.flat-portfolio.v2 .item ul.categories li a {
+    font-size: 11px
+}
+
+.flat-portfolio.v2 .item .title-portfolio a,
+.flat-portfolio.v2 .item ul.categories li a {
+    color: #fff
+}
+
+.flat-portfolio.v2 .item .title-portfolio a:hover,
+.flat-portfolio.v2 .item ul.categories li a:hover {
+    color: #202020
+}
+
+.flat-portfolio.v2 .item:hover .item-caption {
+    bottom: 10px
+}
+
+.flat-portfolio.v2 .item ul.categories li:after,
+.flat-portfolio.v2 .item ul.categories li:before {
+    background-color: #fff
+}
+
+.flat-portfolio.v3 .portfolio-wrap {
+    margin-right: -10px;
+    margin-bottom: -10px
+}
+
+.flat-portfolio.v3 .item.wp50 {
+    width: 50%
+}
+
+.flat-portfolio.v3 .item {
+    padding: 0 5px;
+    width: 25%;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+.flat-portfolio.v4 .item {
+    width: 33.33333333333333%;
+    padding: 0 30px 30px 0
+}
+
+.flat-portfolio.v4 .item .overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px
+}
+
+.flat-portfolio.v4 .portfolio-wrap {
+    margin-right: -30px;
+    margin-bottom: -30px
+}
+
+.flat-portfolio.v4 .item-wrap {
+    position: relative
+}
+
+.flat-portfolio.v4 .item .item-caption {
+    margin-bottom: 15px
+}
+
+.flat-portfolio.v4 .item .link {
+    bottom: 20%
+}
+
+.flat-portfolio .item.w50 {
+    width: 100%
+}
+
+.flat-portfolio .item .item-caption {
+    position: absolute;
+    bottom: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100%
+}
+
+.flat-portfolio .item .title-portfolio {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #202020;
+    letter-spacing: 2.2px
+}
+
+.cos-cantt p,
+.form-cantt-rihgt,
+.panel .panel-collapse .panel-body {
+    font-weight: 100;
+    font-family: Poppins-Light
+}
+
+.flat-portfolio .item .title-portfolio a {
+    color: #202020
+}
+
+.flat-portfolio .item .title-portfolio a:hover {
+    color: #b58e08
+}
+
+.categories {
+    padding: 0;
+    margin: 0
+}
+
+.flat-portfolio .item ul.categories li {
+    position: relative;
+    display: inline-block;
+    padding: 0 35px
+}
+
+.flat-portfolio .item ul.categories li:after,
+.flat-portfolio .item ul.categories li:before {
+    height: 2px;
+    width: 20px;
+    background-color: #202020;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12px
+}
+
+.flat-portfolio .item ul.categories li:after {
+    left: 100%;
+    margin-left: -20px
+}
+
+.flat-portfolio .item ul.categories li a {
+    font-size: 12px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+    opacity: .85;
+    color: #202020;
+    font-family: Poppins-Light
+}
+
+.flat-portfolio .item ul.categories li a:hover {
+    color: #b58e08
+}
+
+.flat-portfolio .item .link {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #2bb0ef;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    margin-left: -20px;
+    bottom: 15%;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.flat-portfolio .item:hover {
+    cursor: pointer
+}
+
+.flat-portfolio .item .overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background-color: #fff;
+    content: '';
+    z-index: 1;
+    box-sizing: border-box;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    -webkit-transform: scale(0);
+    transition: opacity .35s, transform .35s;
+    transition: all ease .4s;
+    transform: scale(0)
+}
+
+.flat-portfolio .item:hover .overlay {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: .8;
+    filter: alpha(opacity=80);
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.flat-portfolio .item:hover .item-caption {
+    bottom: 40%;
+    opacity: 1
+}
+
+.flat-portfolio .item:hover .link {
+    opacity: 1;
+    left: 50%
+}
+
+.transition {
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+.fade-carousel .slides .products-sider1,
+.fade-carousel .slides .products-sider2,
+.fade-carousel .slides .products-sider3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/products-slider/1.jpg)
+}
+
+.dentistry-bg,
+.input-bg,
+.main-form {
+    background: #010509
+}
+
+.ps-cantt {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    z-index: 3;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0)
+}
+
+.dentistry-bg {
+    padding-top: 53px;
+    padding-bottom: 40px !important;
+}
+
+.wt {
+    width: 55%
+}
+
+.main-form {
+    border: 2px solid #dbb953;
+    width: 80%;
+    position: relative;
+    padding: 25px;
+    top: -117px !important
+}
+
+.main-form h1 {
+    font-family: Poppins-Light;
+    font-size: 22px;
+    z-index: 999;
+    line-height: 24px;
+    color: #fff !important;
+    text-align: left;
+    text-transform: capitalize !important;
+}
+
+input[type="file"] {
+    cursor: pointer;
+    background: #010509;
+}
+
+.input-bg {
+    border: none;
+    border-bottom: #333639 solid 1px;
+    font-family: Poppins-Light
+}
+
+.submit-button {
+    background: 0 0;
+    color: #ebc84e;
+    border: none;
+    font-size: 20px
+}
+
+.form-cantt-rihgt {
+    color: #fff
+}
+
+.cos-cantt h3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: Poppins-Light
+}
+
+.cos-cantt p {
+    color: #fff;
+    line-height: 19px;
+    font-size: 12px
+}
+
+.cos-cantt .alignleft {
+    margin-bottom: 65px
+}
+
+.alignleft {
+    float: left;
+    margin: 0 20px 20px 0
+}
+
+.img-all-right {
+    border: 1px solid #dfdfdf;
+    padding: 10px
+}
+
+.img-all-right img {
+    width: 100%
+}
+
+.pt-bg {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/pt-bg.jpg) top center no-repeat #fff;
+    padding-bottom: 60px
+}
+
+.pt-bg2 {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/pt-bg2.png) top center no-repeat #f1f0f0;
+    padding-bottom: 60px
+}
+
+.panel,
+.panel .panel-collapse .panel-body,
+.panel .panel-heading {
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important
+}
+
+.panel {
+    margin-bottom: 14px !important;
+    border: none
+}
+
+.panel:last-child {
+    margin-bottom: 0
+}
+
+.panel .panel-heading {
+    background-color: #fff;
+    position: relative;
+    padding: 0
+}
+
+.panel .panel-heading .panel-title a {
+    display: block;
+    padding: 13px 25px 14px 40px;
+    position: relative;
+    margin-bottom: 9px;
+    border: 1px solid #d9d9d9;
+    -webkit-box-shadow: -1px 2px 3px -1px #ccc;
+    -moz-box-shadow: -1px 2px 3px -1px #ccc;
+    -o-box-shadow: -1px 2px 3px -1px #ccc;
+    box-shadow: -1px 2px 3px -1px #ccc
+}
+
+.panel .panel-heading .panel-title i {
+    position: absolute;
+    font-size: 15px;
+    left: -5px;
+    top: -5px;
+    display: block;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    background: #cea82e
+}
+
+.panel .panel-collapse .panel-body {
+    position: relative;
+    padding: 15px 21px 23px;
+    border: 1px solid #d9d9d9;
+    -webkit-box-shadow: -1px 2px 3px -1px #ccc;
+    -moz-box-shadow: -1px 2px 3px -1px #ccc;
+    -o-box-shadow: -1px 2px 3px -1px #ccc;
+    box-shadow: -1px 2px 3px -1px #ccc
+}
+
+.pt h1,
+.wt {
+    color: #fff
+}
+
+.line2 {
+    background: #fff
+}
+
+.columns {
+    position: relative;
+    padding-left: .9375em;
+    padding-right: .9375em;
+    width: 100%;
+    float: left
+}
+
+.redmore-mobile {
+    display: none;
+    width: 100%
+}
+
+.redmore-mobile p a {
+    color: #fff
+}
+
+.redmore-mobile2 {
+    display: none
+}
+
+.after-before.slick-slider img {
+    height: 368px;
+    width: 368px
+}
+
+.after-before .slick-slide {
+    height: 100%
+}
+
+.after-before .slick-next {
+    left: 58px;
+    top: 106%;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/arrow-r.png)
+}
+
+.after-before .slick-prev {
+    right: 36px;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/arrow-l.png) !important
+}
+
+.after-before.slick-slider {
+    overflow: visible
+}
+
+.after-before .slick-next {
+    right: -50px;
+    width: 11px;
+    height: 18px
+}
+
+.after-before .slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 106%;
+    display: block;
+    width: 11px;
+    height: 18px;
+    margin-top: -10px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0
+}
+
+.after-before2 .slick-dots {
+    display: none !important
+}
+
+.after-before2.slick-slider img {
+    height: 368px;
+    width: 368px
+}
+
+.after-before2 .slick-slide {
+    height: 100%
+}
+
+.after-before2 .slick-next {
+    left: 58px;
+    top: 106%;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/arrow-r.png)
+}
+
+.after-before2 .slick-prev {
+    right: 36px;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/arrow-l.png) !important
+}
+
+.after-before2.slick-slider {
+    overflow: visible
+}
+
+.after-before2 .slick-next {
+    right: -50px;
+    width: 11px;
+    height: 18px
+}
+
+.after-before2 .slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 106%;
+    display: block;
+    width: 11px;
+    height: 18px;
+    margin-top: -10px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0
+}
+
+.after-before2 .slick-dots {
+    display: none !important
+}
+
+/*
+=============================================================
+about page style 09-08-2017
+=============================================================
+*/
+.w3ls_banner_info .wt-bg {
+    background: #fff;
+    width: 41%;
+    padding: 0px 25px;
+}
+
+.about-li {
+    list-style: none;
+    margin: 0px padding:0px;
+}
+
+.about-li li {
+    float: left;
+    margin-right: 35px;
+}
+
+.about-li li span {
+    margin-right: 15px;
+}
+
+.quality-cantt {
+    color: #fff;
+    line-height: 22px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.meet-cat-bg {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/about-md-bg.jpg) no-repeat center top;
+    padding-bottom: 18px;
+    padding-top: 53px;
+}
+
+.beet-ef-right-b {
+    background: #fbf9f9;
+    padding-top: 55px;
+    padding-left: 80px;
+    padding-right: 50px;
+    min-height: 606px;
+}
+
+.pl {
+    padding-left: 0px;
+}
+
+.pr {
+    padding-right: 0px;
+}
+
+.name-h {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #886807;
+    font-weight: 600;
+}
+
+.dr-dets {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.dr-dets li {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.dr-dets li span {
+    margin-right: 20px;
+}
+
+.beet-ef-right-b .accolades {
+    margin-top: 15px;
+}
+
+.beet-ef-right-b .accolades h4 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.beet-ef-right-b .accolades ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.beet-ef-right-b .accolades ul li {
+    font-size: 16px;
+    font-weight: 200;
+    list-style: outside;
+    margin-left: 15px;
+    margin-bottom: 9px;
+}
+
+.lt-bg {
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/middle-bg3.jpg) no-repeat #fff;
+    background-size: auto auto;
+    background-size: 100% 100%;
+    padding-bottom: 180px;
+}
+
+.dentel {
+    padding-top: 30px;
+}
+
+/*
+==================================================
+    contact style 09-08-2017
+==================================================
+*/
+.contact-round-clock {
+    color: #bf9b5f
+}
+
+.contact-round-clock h3 {
+    font-size: 18px;
+}
+
+.bg-gr {
+    background: #f6f6f6;
+    padding: 25px;
+}
+
+.map-contact img {
+    width: 100%;
+}
+
+.address {
+    background: #fff;
+    padding: 28px 20px 20px 20px;
+}
+
+.nav-tab-contact {
+    list-style: none;
+}
+
+.nav-tab-contact li {
+    background: #8e6f14;
+    border: none;
+    margin-right: 20px;
+}
+
+.nav-tab-contact li:last-child {
+    margin-right: 0px;
+}
+
+.nav-tab-contact>li.active>a,
+.nav-tab-contact>li.active>a:hover,
+.nav-tab-contact>li.active>a:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #000;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.nav-tab-contact>li>a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.nav-tab-contact>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #000;
+}
+
+.nav-tab-contact {
+    border: none;
+}
+
+.address-cantt {
+    margin-top: 0px;
+}
+
+.address-cantt ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.address-cantt ul li {
+    margin-bottom: 25px;
+}
+
+.address-cantt ul li a {
+    text-decoration: none;
+    color: #000
+}
+
+.address-cantt ul li span {
+    margin-right: 15px;
+    float: left;
+}
+
+/*
+======================================
+	dental tourism page style
+======================================
+*/
+.dentalmiddle-cantt p {
+    line-height: 26px;
+    font-size: 14px;
+    padding-bottom: 50px;
+    text-align: justify !important;
+}
+
+.factors-img-left {
+    position: absolute;
+    top: -115px;
+}
+
+.factors-right-services .ul-left-cantt {
+    float: left;
+    width: 49%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.factors-right-services .ul-left-cantt li {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 40px;
+    padding-bottom: 45px;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/about-li-img.png) no-repeat;
+}
+
+.factors-right-services .ul-left-cantt li span {
+    margin-right: 15px;
+}
+
+.Highlights-box.black-color {
+    background: #191919
+}
+
+.gold-color {
+    background: #cca93b
+}
+
+.Highlights-box {
+    padding: 22px;
+    color: #fff;
+    min-height: 215px;
+    margin-bottom: 28px;
+}
+
+.Highlights-box h3 {
+    font-size: 19px;
+    margin: 0px;
+    padding-bottom: 22px;
+    font-weight: 100;
+}
+
+.Highlights-box p {
+    list-style: 22px;
+    font-size: 14px;
+}
+
+.dental-bg {
+    padding-bottom: 5px !important;
+}
+
+/*12-082017*/
+.step-book-box {
+    width: 80%;
+}
+
+.step-book-box .heading-tittle:hover {
+    background: #cca93b
+}
+
+.step-book-box .heading-tittle {
+    position: relative;
+    background: #191919;
+    border-radius: 8px;
+    padding: 12px 29px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.heading-tittle:hover,
+.step-book-box:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px
+}
+
+.step-book-box .heading-tittle:before {
+    right: 10px;
+    top: 16px;
+    position: absolute;
+    content: '';
+    display: block;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/steap1-icon.png) no-repeat;
+    width: 80px;
+    height: 65px;
+}
+
+.step-book-box .treatment:before {
+    right: 10px;
+    top: 16px;
+    position: absolute;
+    content: '';
+    display: block;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/steap2-icon.png) no-repeat;
+    width: 80px;
+    height: 88px;
+}
+
+.step-book-box .Travel:before {
+    right: 10px;
+    top: 16px;
+    position: absolute;
+    content: '';
+    display: block;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/steap3-icon.png) no-repeat;
+    width: 94px;
+    height: 56px;
+}
+
+.step-book-box .heading-tittle h3 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.step-book-box .heading-tittle p {
+    font-size: 18p2x;
+    color: #FFF;
+}
+
+.step-book-box .step-cantt-box {
+    background: #f6f6f6;
+    padding: 20px;
+    min-height: 464px !important;
+}
+
+.step-book-box .step-cantt-box:hover {
+    background: #fff;
+}
+
+.step-book-box .step-cantt-box ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.step-book-box .step-cantt-box ul li {
+    border-bottom: #e4e3e2 solid 1px;
+    padding: 20px 0px;
+}
+
+.step-book-box .step-cantt-box ul li:last-child {
+    border-bottom: none;
+}
+
+.step-book-box .step-cantt-box {
+    position: relative;
+}
+
+.step-book-box .step-cantt-box:before {
+    width: 178px;
+    height: 289px;
+    background: url(/web/20220307123651im_/https://avanahealthcare.com/wp-content/themes/mohitdesign/images/box-after-icon-left.png) no-repeat;
+    content: '';
+    position: absolute;
+    left: -22px;
+    bottom: -15px;
+    z-index: -999;
+}
+
+/*
+==========================================
+	new footer-style
+==========================================
+*/
+.main-footer {
+    background: #000;
+    );
+    padding: 30px 0;
+    position: relative;
+}
+
+.product_code h3 {
+    margin: 0 0 18px;
+    padding: 0;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.product_code h3::before {
+    background: #c5881d;
+    margin: 0 0 22px;
+    width: 74px;
+    height: 6px;
+    display: block;
+}
+
+.product_code h3::before,
+.widget_categories h5:before,
+hr.style-seven:before {
+    content: "";
+}
+
+.product_code ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+.product_code ul li {
+    margin: 0 0 10px;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+.product_code ul li a {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    color: #c7c7c7;
+    font-size: 14px;
+}
+
+.textwidget {
+    margin-top: 2px;
+}
+
+h5.ser-ft {
+    margin-top: 10px;
+    padding: 0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.service-comp p {
+    color: #c7c7c7;
+    font-size: 14px;
+}
+
+.text {
+    overflow: hidden;
+    line-height: normal;
+    padding: 2px 0 0;
+    font-size: 14px;
+    color: #c7c7c7;
+}
+
+.service-comp p a {
+    color: #c7c7c7;
+}
+
+.mb-ft {
+    margin-bottom: 5px !important;
+}
+
+.footer-form-txr {
+    background: #2a2929 !important;
+    border: none;
+    color: #fff;
+    border-radius: 0 !important;
+}
+
+.footer-submit-n input[type=submit] {
+    background: #aa720f;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+}
+
+textarea.footer-form-txr {
+    min-height: 112px;
+    border: none;
+    background: #2a2929;
+    border-radius: 0;
+}
+
+.form-footer textarea {
+    height: 40px !important;
+}
+
+.bounce {
+    font-size: 30px;
+    color: #333;
+    padding-left: 40px;
+    padding-top: 18px;
+}
+
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
+@-moz-keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+/*===========================================
+ new header style
+============================================*/
+.top-nav {
+    padding-right: 45px;
+}
+
+.top-nav-header {
+    background: #9a8026;
+    padding: 0px;
+}
+
+.navbar-brand {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-nav.navbar-right .btn {
+    position: relative;
+    z-index: 2;
+    padding: 4px 20px;
+    margin: 10px auto;
+}
+
+.navbar .navbar-collapse {
+    position: relative;
+}
+
+.navbar .navbar-collapse .navbar-right>li:last-child {
+    padding-left: 22px;
+}
+
+.navbar .nav-collapse {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding-right: 120px;
+    padding-left: 80px;
+    width: 100%;
+}
+
+.navbar.navbar-default .nav-collapse {
+    background-color: #f8f8f8;
+}
+
+.navbar.navbar-inverse .nav-collapse {
+    background-color: #222;
+}
+
+.navbar .nav-collapse .navbar-form {
+    border-width: 0;
+    box-shadow: none;
+}
+
+.nav-collapse>li {
+    float: right;
+}
+
+.btn.btn-circle {
+    border-radius: 50px;
+}
+
+.btn.btn-outline {
+    background-color: transparent;
+}
+
+.top-nav .navbar-nav>li>a {
+    border-right: #7b661d solid 1px;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    line-height: 20px;
+}
+
+.tittle-fm h3 {
+    font-size: 30px;
+    color: #3c2519;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-weight: 600;
+}
+
+.tittle-fm h3 span {
+    color: #ff8001;
+}
+
+.sele-location {
+    min-height: 495px;
+    background: #fff;
+    transition: all ease-in .5s 0s;
+    box-shadow: 1px -2px 24px 0px #adabab;
+    padding: 30px 10px 10px 10px;
+    box-sizing: border-box;
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.sele-location .step_point {
+    width: 50px;
+    height: 50px;
+    background: #864d15;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: 48px;
+}
+
+.sele-location h2 {
+    font-weight: 600;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.sele-location .row {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    height: 37px;
+}
+
+.sele-location .row .select {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 36px;
+    line-height: 26px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgBAMAAACFobf6AAAAG1BMVEX///88JRk8JRk8JRk8JRk8JRk8JRk8JRk8JRn2BBTmAAAACHRSTlMAETNmmczd7skLhxIAAABPSURBVCiRY2AYNkBEAUwxOsFFPIrAlGgbXES9HaSIMaIZLsJUAVIk2mHAgKIIWQlEEYoSkCJFFCUgRaWoSoCKOlCVgBShKWFgUMbunaEBAIp1DePncu4VAAAAAElFTkSuQmCC) right center no-repeat;
+}
+
+select.select_box {
+    border: 1px solid #bbb9b9;
+    padding: 8px 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    width: 100%;
+    color: #595959;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    height: 38px;
+}
+
+.sele-location .location_detials_area {
+    width: 100%;
+    float: left;
+    text-align: left;
+    position: relative;
+    line-height: 24px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.location_detials_area h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 5px;
+    color: #000;
+    line-height: normal;
+}
+
+.location_detials_area h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #864d15;
+    line-height: normal;
+}
+
+.input_box {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    height: 38px;
+    line-height: normal;
+    padding: 8px 5px;
+    font-size: 14px;
+    border: solid 1px #bbb9b9;
+    color: #595959;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.personal_detail_content {
+    width: 100%;
+    float: left;
+}
+
+.dorm-details {
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+
+.personal_detail_content textarea.textarea_box {
+    background: #fff;
+    width: 100%;
+    height: 75px;
+    line-height: normal;
+    padding: 8px 5px;
+    font-size: 14px;
+    border: solid 1px #bbb9b9;
+    color: #595959;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.appointment_submit {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: 20px 0 0;
+}
+
+.appointment_submit .button {
+    background: #81470c;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    height: auto;
+    font-weight: 700;
+    box-shadow: none;
+    padding: 5px 15px;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+    display: inline-block;
+    float: left;
+    line-height: normal;
+    transition: all ease-in .5s 0s;
+}
+
+/*emi plan*/
+.emi h1 {
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.emi p {
+    line-height: 26px;
+    font-size: 14px;
+    padding-bottom: 0px;
+    text-align: justify !important;
+}
+
+.im-top {
+    padding-top: 33%;
+}
+
+.side-buttion {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: fixed;
+    top: 50%;
+    z-index: 999;
+    transition-duration: 500ms;
+    transition-property: left;
+    transition-timing-function: linear;
+    right: -85px;
+}
+
+.side-buttion a {
+    background: #7f4307;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+}
+
+.form-group .form-control-new {
+    outline: none;
+    box-shadow: none;
+    height: 43px;
+    border: 1px solid #d4d4d4;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    background: #f7fafc;
+    border-radius: 0;
+}
+
+.s-buttion {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 45px;
+    border-radius: 0px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+}
+
+.clinic-search {
+    width: 470px;
+    margin: 0 auto;
+}
+
+.clinic-search .inner-serach {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.clinic-search .select {
+    width: 215px;
+    height: 40px;
+    line-height: 23px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 14px;
+    color: #595959;
+    background: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QMvaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzA2NyA3OS4xNTc3NDcsIDIwMTUvMDMvMzAtMjM6NDA6NDIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyRUQzNzc1RDE4MkExMUU3ODQzMUIxQzdDRUZERTM2RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyRUQzNzc1RTE4MkExMUU3ODQzMUIxQzdDRUZERTM2RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjJFRDM3NzVCMTgyQTExRTc4NDMxQjFDN0NFRkRFMzZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjJFRDM3NzVDMTgyQTExRTc4NDMxQjFDN0NFRkRFMzZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/+4ADkFkb2JlAGTAAAAAAf/bAIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgACgAcAwERAAIRAQMRAf/EAHUAAAEFAAAAAAAAAAAAAAAAAAkAAwYICgEAAwEAAAAAAAAAAAAAAAAAAAECAxAAAAQEAwQLAAAAAAAAAAAAAgQFBgEDBwgAETcSNTgJE2M0ZFU2VmZnOQoRAAICAQUBAAAAAAAAAAAAAAABMQIhEVGxMmIS/9oADAMBAAIRAxEAPwAyj3e9xHI0uIctQKgOWp1yXKauSqcoOJ1OpxKC5UKrFkFWKhLgzagqKigbGoLrmpG5l1QiIQhRHMmTB5QyV4Qg4M80fng0xdehuvl0lY+c9V9w2N8u1+KzCsqZhsmQvVvzbHTyZbrImgSzJmhVvirGEkKqbXSQoyzx+ULYNyhREKIUmGS0Nu70rG4kvnLk0esRoEKfMdmsJKUF9WS2Q1G60E1Vdi6oOh0qZBtJBNGJqDlcqvOMKriXzpckGYcPGpgzBsyIc2YIQxijHQgleACtV5PCdcdovovUTiL0I8sKOrXsTxHqNrCcDUg9fz9/VVbXoR2Bx6B7p36b1H+aPUvfcsTTqO/YM/iyRYAP/9k=) right center no-repeat;
+}
+
+.clinic-search .concinate-label {
+    width: auto;
+    display: inline-block;
+    float: none;
+    padding: 0 10px;
+    vertical-align: top;
+    font-size: 22px;
+    font-weight: 600;
+    color: #21201c;
+    line-height: 35px;
+}
+
+.location-list {
+    margin-top: 40px;
+    padding: 18px 20px 15px 15px;
+    border-left: 3px solid #e4ae14;
+    box-shadow: rgba(0, 0, 0, .2) 0px 0px 10px;
+    min-height: 180px;
+    text-align: left;
+}
+
+.location-list h4 {
+    font-size: 16px;
+    color: #885119;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.location-list p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.book-now {
+    font-size: 13px;
+    font-weight: 600;
+    color: #9d5309;
+    padding: 4px 15px 5px 7px;
+    border: 1px solid #d7d7d7;
+    display: inline-block;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.offset-lg-two {
+    margin-left: 16.666667%;
+    display: inline-block;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 31px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.team-member-block-item {
+    margin-bottom: 30px;
+}
+
+.m-b {
+    border: #ddd solid 1px;
+    -webkit-box-shadow: -1px 1px 16px 2px rgb(242, 234, 234);
+    -moz-box-shadow: -1px 1px 16px 2px rgb(242, 234, 234);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main-b {
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.main-b:hover::before,
+.main-b:hover::after {
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+}
+
+.main-b::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.main-b::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+    top: 0px;
+    bottom: 0px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    transform: scale(1, 0);
+    -moz-transform: scale(1, 0);
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(0, 1);
+    transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+}
+
+.team-member-main-detail {
+    min-height: 160px;
+    width: 100%;
+    background: #fff;
+    padding: 8px 12px 12px;
+    text-align: center;
+}
+
+.team-member-main-pos {
+    color: #a77d03;
+}
+
+.team-member-main-detail h5 {
+    font-size: 18px;
+}
+
+.team-member-main-detail h6 {
+    font-size: 16px;
+}
+
+.team-member-main-detail p {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.team-member-block-img {
+    position: relative;
+}
+
+.team-member-block-img-overlay,
+.service-block-img-overlay,
+.gallery-col-img-overlay {
+    position: absolute;
+    background: #85660c;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    text-align: center;
+}
+
+.team-member-block-img:hover>.team-member-block-img-overlay {
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+    -moz-transition: opacity .6s ease-in-out;
+    -webkit-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+}
+
+/* process */
+#process {
+    background: #f5f5f5;
+    padding-bottom: 0px;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.about-text-grid {
+    padding-top: 50px;
+}
+
+h4.sec-title1.flow-odd {
+    margin-right: 5em;
+    margin-left: 0;
+}
+
+h4.sec-title1 span {
+    font-size: 16px;
+}
+
+ul.partners-icon li i {
+    font-size: 9em;
+    color: #777;
+}
+
+ul.partners-icon li {
+    display: inline-block;
+    margin: 0 2em;
+}
+
+.buttion-c {
+    position: absolute;
+    top: -18px;
+    right: -6px;
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.close {
+    opacity: .9 !important;
+}
+
+.top-p {
+    margin-top: 7% !important;
+}
+
+.business-infonoimg {
+    color: #fff;
+    padding: 10px 0;
+    overflow: hidden;
+    margin-top: 1px;
+    background: #262524;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+}
+
+.business-infonoimg ul {
+    list-style: none;
+}
+
+.business-infonoimg ul li {
+    float: left;
+    width: 33.33333333%;
+    border-right: 1px solid #dfdfdf;
+    text-align: center;
+    font-size: 16px;
+}
+
+.business-infonoimg ul li div {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tittle-fr {
+    font-weight: 100;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.bd-cantt h3 {
+    font-weight: 600;
+}
+
+.section {
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    margin-top: 10px;
+    clear: both;
+    /*float: left; */
+    width: 100%;
+}
+
+.ttl {
+    background-color: #f3f3f3;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.keypoints {
+    padding: 0 15px 15px;
+}
+
+.tab-sec-topics-ttl {
+    clear: both;
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    line-height: 24px;
+}
+
+.mrgn-tp {
+    margin-top: 25px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 4px;
+}
+
+.left-box {
+    font-size: 13px;
+    color: #fff;
+    line-height: 30px;
+    padding-left: 110px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right>li:last-child {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar .nav-collapse {
+        margin: 7.5px auto;
+        padding: 0;
+    }
+
+    .navbar .nav-collapse .navbar-form {
+        margin: 0;
+    }
+
+    .nav-collapse>li {
+        float: none;
+    }
+
+    .offset-lg-2 {
+        margin-left: 16.666667%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .top-p {
+        margin-top: 7% !important;
+    }
+}
+
+
+
+.box-shadow-ico {
+    margin-bottom: 30px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+#homeVideo button.btn.btn-default {
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    z-index: 5;
+    color: white;
+}
+
+
+.col-xs-12.col-sm-3.col-md-3.vdo-thumb {
+    margin-bottom: 30px;
+}
+
+
+.pad-img-vdo {
+    padding: 15px;
+    background-color: white;
+}
+
+.pad-img-univer {
+    padding: 25px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .desk-bnr {
+
+        display: none;
+
+    }
+}
+
+
+@media only screen and (min-width: 601px) {
+
+    .mobile-bnr {
+        display: none;
+    }
+}
+
+
+.fancybox-button,
+.fancybox-button:link,
+.fancybox-button:visited {
+    color: #000 !important;
+}
+
+.fancybox-button {
+    background: #ffffff !important;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 44px;
+    margin: 0;
+    outline: none;
+    padding: 10px;
+    transition: color .2s;
+    vertical-align: top;
+    width: 44px;
+}
+
+.socailicon li {
+    float: left !important;
+    list-style: none;
+    padding-right: 5px;
+}
+
+.video-preview a figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    right: 0;
+    left: 0;
+}
