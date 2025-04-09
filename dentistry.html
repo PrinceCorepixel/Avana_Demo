@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avana | Dentistry, Cosmetology and Plastic Surgery Clinic</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twentytwenty/1.0.0/css/twentytwenty.min.css" />
@@ -967,6 +969,60 @@
         // Start auto sliding every 4 seconds
         setInterval(slideNext, 4000);
     </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".accordion-toggle").on("click", function () {
+            var icon = $(this).find(".indicator");
+
+            // Toggle plus/minus icon
+            if ($(this).closest('.panel-heading').next('.panel-collapse').hasClass('in')) {
+                icon.removeClass("icon-minus").addClass("icon-plus");
+            } else {
+                icon.removeClass("icon-plus").addClass("icon-minus");
+            }
+
+            // Reset other icons
+            $(".accordion-toggle").not(this).find(".indicator").removeClass("icon-minus").addClass("icon-plus");
+        });
+
+        // Ensure correct icon on show/hide
+        $(".panel-collapse").on("shown.bs.collapse", function () {
+            $(this).prev(".panel-heading").find(".indicator").removeClass("icon-plus").addClass("icon-minus");
+        }).on("hidden.bs.collapse", function () {
+            $(this).prev(".panel-heading").find(".indicator").removeClass("icon-minus").addClass("icon-plus");
+        });
+    });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".accordion-toggle").click(function () {
+            // Close all icons
+            $(".accordion-toggle i").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+
+            // If the clicked item is opening, change its icon
+            if (!$(this).closest('.panel').find('.panel-collapse').hasClass('in')) {
+                $(this).find("i").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+            }
+        });
+
+        // Reset icon when another panel is clicked
+        $(".panel-collapse").on('shown.bs.collapse', function () {
+            $(this).parent().find(".accordion-toggle i").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        }).on('hidden.bs.collapse', function () {
+            $(this).parent().find(".accordion-toggle i").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+        });
+    });
+</script>
+
+
 
 
 </body>
